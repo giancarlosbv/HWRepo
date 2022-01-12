@@ -1217,3 +1217,321 @@ java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnect
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.lang.Thread.run(Thread.java:829)
 [0m
+[0m2021.12.23 10:29:05 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.23 10:29:06 INFO  time: initialize in 1.06s[0m
+[0m2021.12.23 10:29:06 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22470'...
+Waiting for the bsp connection to come up...
+error: The command bsp --protocol tcp --port 22470 returned with an error
+> [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+> [0m[32m[D][0m Loading 2 projects from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\.bloop'...
+> [0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\.bloop\week2examples-test.json'
+> [0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\.bloop\week2examples.json'
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist![0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+> 
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+> [0m[32m[D][0m Elapsed: 16.1241 ms
+> [0m[33m[W][0m Scala instance jar C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+> [0m[31m[E][0m Failed to load project from c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\.bloop\week2examples-test.json
+> [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\.bloop\week2examples-test.json
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:193)
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+> [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+> [0m[32m[D][0m   => C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+> [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:198)
+> [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+> [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+> [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+> [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+> [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:210)
+> [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+> [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:205)
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:187)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+error: The launcher failed to establish a bsp connection, aborting...
+[0m2021.12.23 10:29:06 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:159)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.12.23 10:29:06 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\src\main\scala\wk2Assignment.scala[0m
+[0m2021.12.23 10:29:08 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.23 10:29:09 INFO  running 'C:\Users\gianc\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\gianc\AppData\Local\Temp\metals941194106939920627\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.23 10:29:11 INFO  time: code lens generation in 1.62s[0m
+[0m2021.12.23 10:29:11 INFO  time: code lens generation in 1.63s[0m
+[0m2021.12.23 10:29:11 INFO  time: code lens generation in 4.3s[0m
+[0m2021.12.23 10:29:11 INFO  time: code lens generation in 4.3s[0m
+[0m2021.12.23 10:29:12 INFO  [info] welcome to sbt 1.5.4 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2021.12.23 10:29:14 INFO  [info] loading settings for project root-12-23assignment-build-build from metals.sbt ...[0m
+[0m2021.12.23 10:29:14 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\project\project[0m
+[0m2021.12.23 10:29:16 INFO  [info] loading settings for project root-12-23assignment-build from metals.sbt ...[0m
+[0m2021.12.23 10:29:16 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\project[0m
+[0m2021.12.23 10:29:19 INFO  [success] Generated .bloop\root-12-23assignment-build.json[0m
+[0m2021.12.23 10:29:19 INFO  [warn] Removed stale C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\project\.bloop\week2examples-build.json[0m
+[0m2021.12.23 10:29:19 INFO  [success] Total time: 3 s, completed Dec 23, 2021, 10:29:19 AM[0m
+[0m2021.12.23 10:29:19 INFO  [info] loading settings for project root-12-23assignment from build.sbt ...[0m
+[0m2021.12.23 10:29:19 INFO  [info] set current project to Week2.scala (in build file:/C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/12-23assignment/)[0m
+[0m2021.12.23 10:29:21 INFO  [warn] scala-library-2.11.12-sources.jar no longer exists at C:\Users\GabrielKlein\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12-sources.jar[0m
+[0m2021.12.23 10:29:21 INFO  [success] Generated .bloop\root-12-23assignment-test.json[0m
+[0m2021.12.23 10:29:21 INFO  [success] Generated .bloop\root-12-23assignment.json[0m
+[0m2021.12.23 10:29:21 INFO  [warn] Removed stale C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\.bloop\week2examples.json[0m
+[0m2021.12.23 10:29:21 INFO  [warn] Removed stale C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\.bloop\week2examples-test.json[0m
+[0m2021.12.23 10:29:21 INFO  [success] Total time: 0 s, completed Dec 23, 2021, 10:29:21 AM[0m
+[0m2021.12.23 10:29:21 INFO  time: ran 'sbt bloopInstall' in 12s[0m
+[0m2021.12.23 10:29:21 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26652'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\.bloop\root-12-23assignment.json'
+[0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\.bloop\root-12-23assignment-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'root-12-23assignment', 'root-12-23assignment-test'
+[0m[32m[D][0m Missing analysis file for project 'root-12-23assignment-test'
+[0m[32m[D][0m Loading previous analysis for 'root-12-23assignment' from 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\12-23assignment\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.11.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:26652...
+The server is listening for incoming connections at tcp://127.0.0.1:26652...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.23 10:29:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.23 10:29:21 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37478'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37478...
+The server is listening for incoming connections at tcp://127.0.0.1:37478...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.23 10:29:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.23 10:29:22 INFO  time: Connected to build server in 1.03s[0m
+[0m2021.12.23 10:29:22 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.23 10:29:25 INFO  time: indexed workspace in 3.28s[0m
+[0m2021.12.23 10:29:26 INFO  compiling root-12-23assignment (1 scala source)[0m
+[0m2021.12.23 10:29:27 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Exception in thread "pool-5-thread-1" java.lang.NoClassDefFoundError: javax/tools/DiagnosticListener
+	at scala.tools.util.PathResolverBase$Calculated$.javaBootClasspath(PathResolver.scala:277)
+	at scala.tools.util.PathResolverBase$Calculated$.basis(PathResolver.scala:283)
+	at scala.tools.util.PathResolverBase$Calculated$.containers$lzycompute(PathResolver.scala:293)
+	at scala.tools.util.PathResolverBase$Calculated$.containers(PathResolver.scala:293)
+	at scala.tools.util.PathResolverBase.containers(PathResolver.scala:309)
+	at scala.tools.util.PathResolver.computeResult(PathResolver.scala:341)
+	at scala.tools.util.PathResolver.computeResult(PathResolver.scala:332)
+	at scala.tools.util.PathResolverBase.result(PathResolver.scala:314)
+	at scala.tools.nsc.backend.JavaPlatform$class.classPath(JavaPlatform.scala:28)
+	at scala.tools.nsc.Global$GlobalPlatform.classPath(Global.scala:115)
+	at scala.tools.nsc.Global.scala$tools$nsc$Global$$recursiveClassPath(Global.scala:131)
+	at scala.tools.nsc.Global$GlobalMirror.rootLoader(Global.scala:64)
+	at scala.reflect.internal.Mirrors$Roots$RootClass.<init>(Mirrors.scala:307)
+	at scala.reflect.internal.Mirrors$Roots.RootClass$lzycompute(Mirrors.scala:321)
+	at scala.reflect.internal.Mirrors$Roots.RootClass(Mirrors.scala:321)
+	at scala.reflect.internal.Mirrors$Roots$EmptyPackageClass.<init>(Mirrors.scala:330)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass$lzycompute(Mirrors.scala:336)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass(Mirrors.scala:336)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass(Mirrors.scala:276)
+	at scala.reflect.internal.Mirrors$RootsBase.init(Mirrors.scala:250)
+	at scala.tools.nsc.Global.rootMirror$lzycompute(Global.scala:73)
+	at scala.tools.nsc.Global.rootMirror(Global.scala:71)
+	at scala.tools.nsc.Global.rootMirror(Global.scala:39)
+	at scala.reflect.internal.Definitions$DefinitionsClass.ObjectClass$lzycompute(Definitions.scala:257)
+	at scala.reflect.internal.Definitions$DefinitionsClass.ObjectClass(Definitions.scala:257)
+	at scala.reflect.internal.Definitions$DefinitionsClass.init(Definitions.scala:1390)
+	at scala.tools.nsc.Global$Run.<init>(Global.scala:1242)
+	at scala.tools.nsc.interactive.Global$TyperRun.<init>(Global.scala:1321)
+	at scala.tools.nsc.interactive.Global.newTyperRun(Global.scala:1344)
+	at scala.tools.nsc.interactive.Global.<init>(Global.scala:299)
+	at scala.meta.internal.pc.MetalsGlobal.<init>(MetalsGlobal.scala:37)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.newCompiler(ScalaPresentationCompiler.scala:258)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$anonfun$1.apply(ScalaPresentationCompiler.scala:84)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$anonfun$1.apply(ScalaPresentationCompiler.scala:84)
+	at scala.meta.internal.pc.CompilerAccess.loadCompiler(CompilerAccess.scala:37)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess$$anonfun$withNonInterruptableCompiler$1.apply(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess$$anonfun$onCompilerJobQueue$1.apply$mcV$sp(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: javax.tools.DiagnosticListener
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 42 more
+[0m2021.12.23 10:29:30 INFO  time: compiled root-12-23assignment in 4.11s[0m
+Exception in thread "pool-5-thread-2" java.lang.NoClassDefFoundError: javax/tools/DiagnosticListener
+	at scala.tools.util.PathResolverBase$Calculated$.javaBootClasspath(PathResolver.scala:277)
+	at scala.tools.util.PathResolverBase$Calculated$.basis(PathResolver.scala:283)
+	at scala.tools.util.PathResolverBase$Calculated$.containers$lzycompute(PathResolver.scala:293)
+	at scala.tools.util.PathResolverBase$Calculated$.containers(PathResolver.scala:293)
+	at scala.tools.util.PathResolverBase.containers(PathResolver.scala:309)
+	at scala.tools.util.PathResolver.computeResult(PathResolver.scala:341)
+	at scala.tools.util.PathResolver.computeResult(PathResolver.scala:332)
+	at scala.tools.util.PathResolverBase.result(PathResolver.scala:314)
+	at scala.tools.nsc.backend.JavaPlatform$class.classPath(JavaPlatform.scala:28)
+	at scala.tools.nsc.Global$GlobalPlatform.classPath(Global.scala:115)
+	at scala.tools.nsc.Global.scala$tools$nsc$Global$$recursiveClassPath(Global.scala:131)
+	at scala.tools.nsc.Global$GlobalMirror.rootLoader(Global.scala:64)
+	at scala.reflect.internal.Mirrors$Roots$RootClass.<init>(Mirrors.scala:307)
+	at scala.reflect.internal.Mirrors$Roots.RootClass$lzycompute(Mirrors.scala:321)
+	at scala.reflect.internal.Mirrors$Roots.RootClass(Mirrors.scala:321)
+	at scala.reflect.internal.Mirrors$Roots$EmptyPackageClass.<init>(Mirrors.scala:330)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass$lzycompute(Mirrors.scala:336)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass(Mirrors.scala:336)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass(Mirrors.scala:276)
+	at scala.reflect.internal.Mirrors$RootsBase.init(Mirrors.scala:250)
+	at scala.tools.nsc.Global.rootMirror$lzycompute(Global.scala:73)
+	at scala.tools.nsc.Global.rootMirror(Global.scala:71)
+	at scala.tools.nsc.Global.rootMirror(Global.scala:39)
+	at scala.reflect.internal.Definitions$DefinitionsClass.ObjectClass$lzycompute(Definitions.scala:257)
+	at scala.reflect.internal.Definitions$DefinitionsClass.ObjectClass(Definitions.scala:257)
+	at scala.reflect.internal.Definitions$DefinitionsClass.init(Definitions.scala:1390)
+	at scala.tools.nsc.Global$Run.<init>(Global.scala:1242)
+	at scala.tools.nsc.interactive.Global$TyperRun.<init>(Global.scala:1321)
+	at scala.tools.nsc.interactive.Global.newTyperRun(Global.scala:1344)
+	at scala.tools.nsc.interactive.Global.<init>(Global.scala:299)
+	at scala.meta.internal.pc.MetalsGlobal.<init>(MetalsGlobal.scala:37)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.newCompiler(ScalaPresentationCompiler.scala:258)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$anonfun$1.apply(ScalaPresentationCompiler.scala:84)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$anonfun$1.apply(ScalaPresentationCompiler.scala:84)
+	at scala.meta.internal.pc.CompilerAccess.loadCompiler(CompilerAccess.scala:37)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess$$anonfun$withNonInterruptableCompiler$1.apply(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess$$anonfun$onCompilerJobQueue$1.apply$mcV$sp(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: javax.tools.DiagnosticListener
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 42 more
+Exception in thread "pool-5-thread-3" java.lang.NoClassDefFoundError: javax/tools/DiagnosticListener
+	at scala.tools.util.PathResolverBase$Calculated$.javaBootClasspath(PathResolver.scala:277)
+	at scala.tools.util.PathResolverBase$Calculated$.basis(PathResolver.scala:283)
+	at scala.tools.util.PathResolverBase$Calculated$.containers$lzycompute(PathResolver.scala:293)
+	at scala.tools.util.PathResolverBase$Calculated$.containers(PathResolver.scala:293)
+	at scala.tools.util.PathResolverBase.containers(PathResolver.scala:309)
+	at scala.tools.util.PathResolver.computeResult(PathResolver.scala:341)
+	at scala.tools.util.PathResolver.computeResult(PathResolver.scala:332)
+	at scala.tools.util.PathResolverBase.result(PathResolver.scala:314)
+	at scala.tools.nsc.backend.JavaPlatform$class.classPath(JavaPlatform.scala:28)
+	at scala.tools.nsc.Global$GlobalPlatform.classPath(Global.scala:115)
+	at scala.tools.nsc.Global.scala$tools$nsc$Global$$recursiveClassPath(Global.scala:131)
+	at scala.tools.nsc.Global$GlobalMirror.rootLoader(Global.scala:64)
+	at scala.reflect.internal.Mirrors$Roots$RootClass.<init>(Mirrors.scala:307)
+	at scala.reflect.internal.Mirrors$Roots.RootClass$lzycompute(Mirrors.scala:321)
+	at scala.reflect.internal.Mirrors$Roots.RootClass(Mirrors.scala:321)
+	at scala.reflect.internal.Mirrors$Roots$EmptyPackageClass.<init>(Mirrors.scala:330)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass$lzycompute(Mirrors.scala:336)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass(Mirrors.scala:336)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass(Mirrors.scala:276)
+	at scala.reflect.internal.Mirrors$RootsBase.init(Mirrors.scala:250)
+	at scala.tools.nsc.Global.rootMirror$lzycompute(Global.scala:73)
+	at scala.tools.nsc.Global.rootMirror(Global.scala:71)
+	at scala.tools.nsc.Global.rootMirror(Global.scala:39)
+	at scala.reflect.internal.Definitions$DefinitionsClass.ObjectClass$lzycompute(Definitions.scala:257)
+	at scala.reflect.internal.Definitions$DefinitionsClass.ObjectClass(Definitions.scala:257)
+	at scala.reflect.internal.Definitions$DefinitionsClass.init(Definitions.scala:1390)
+	at scala.tools.nsc.Global$Run.<init>(Global.scala:1242)
+	at scala.tools.nsc.interactive.Global$TyperRun.<init>(Global.scala:1321)
+	at scala.tools.nsc.interactive.Global.newTyperRun(Global.scala:1344)
+	at scala.tools.nsc.interactive.Global.<init>(Global.scala:299)
+	at scala.meta.internal.pc.MetalsGlobal.<init>(MetalsGlobal.scala:37)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.newCompiler(ScalaPresentationCompiler.scala:258)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$anonfun$1.apply(ScalaPresentationCompiler.scala:84)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$anonfun$1.apply(ScalaPresentationCompiler.scala:84)
+	at scala.meta.internal.pc.CompilerAccess.loadCompiler(CompilerAccess.scala:37)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess$$anonfun$withNonInterruptableCompiler$1.apply(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess$$anonfun$onCompilerJobQueue$1.apply$mcV$sp(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: javax.tools.DiagnosticListener
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 42 more
+[0m2021.12.23 10:32:31 INFO  shutting down Metals[0m
+[0m2021.12.23 10:32:31 INFO  Shut down connection with build server.[0m
+[0m2021.12.23 10:32:31 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+No more data in the client stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:156)

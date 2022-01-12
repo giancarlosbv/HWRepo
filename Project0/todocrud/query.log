@@ -1,0 +1,13 @@
+1641948951181 - Executing SELECT * FROM scala_tasks; 
+1641948951181 - Executing SELECT * FROM scala_tasks; 
+1641948951182 - Executing SELECT * FROM scala_tasks; 
+1641948951182 - Executing SELECT * FROM scala_tasks; 
+1641948951183 - Executing SELECT * FROM scala_tasks; 
+1641949003919 - Executing INSERT INTO scala_tasks(task_desc, task_date) VALUES ($task_desc, $task_date); 
+1641949008098 - Executing SELECT * FROM scala_tasks; 
+1641949008099 - Executing SELECT * FROM scala_tasks; 
+1641949008099 - Executing SELECT * FROM scala_tasks; 
+1641949008100 - Executing SELECT * FROM scala_tasks; 
+1641949008100 - Executing SELECT * FROM scala_tasks; 
+1641949008100 - Executing SELECT * FROM scala_tasks; 
+1641949048034 - Executing DELETE FROM scala_tasks WHERE task_id = $deleteTask_id; 

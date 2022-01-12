@@ -1,0 +1,1232 @@
+[0m2022.01.09 18:38:11 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.09 18:38:13 INFO  time: initialize in 1.39s[0m
+[0m2022.01.09 18:38:13 WARN  Build server is not auto-connectable.[0m
+[0m2022.01.09 18:38:16 INFO  running 'C:\Users\gianc\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\gianc\AppData\Local\Temp\metals4114267362114561513\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.01.09 18:38:19 INFO  [info] welcome to sbt 1.6.1 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2022.01.09 18:38:21 INFO  [info] loading settings for project todocrud-build-build from metals.sbt ...[0m
+[0m2022.01.09 18:38:21 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\project\project[0m
+[0m2022.01.09 18:38:24 INFO  [info] loading settings for project todocrud-build from metals.sbt ...[0m
+[0m2022.01.09 18:38:24 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\project[0m
+[0m2022.01.09 18:38:27 INFO  [success] Generated .bloop\todocrud-build.json[0m
+[0m2022.01.09 18:38:27 INFO  [success] Total time: 3 s, completed Jan 9, 2022, 6:38:27 PM[0m
+[0m2022.01.09 18:38:29 INFO  [info] loading settings for project todocrud from build.sbt ...[0m
+[0m2022.01.09 18:38:29 INFO  [info] set current project to hello-world (in build file:/C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/)[0m
+[0m2022.01.09 18:38:29 INFO  [success] Generated .bloop\todocrud-test.json[0m
+[0m2022.01.09 18:38:29 INFO  [success] Generated .bloop\todocrud.json[0m
+[0m2022.01.09 18:38:29 INFO  [success] Total time: 0 s, completed Jan 9, 2022, 6:38:29 PM[0m
+[0m2022.01.09 18:38:29 INFO  time: ran 'sbt bloopInstall' in 13s[0m
+[0m2022.01.09 18:38:29 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40740'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop\todocrud-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop\todocrud.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'todocrud'
+[0m[32m[D][0m Missing analysis file for project 'todocrud-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40740...
+The server is listening for incoming connections at tcp://127.0.0.1:40740...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.09 18:38:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.09 18:38:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12631'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12631...
+The server is listening for incoming connections at tcp://127.0.0.1:12631...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.09 18:38:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.09 18:38:30 INFO  time: Connected to build server in 1.49s[0m
+[0m2022.01.09 18:38:30 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.09 18:38:35 INFO  time: indexed workspace in 4.04s[0m
+[0m2022.01.09 18:38:37 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2022.01.09 18:38:52 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.09 18:38:55 INFO  time: compiled todocrud in 2.58s[0m
+[0m2022.01.09 18:40:52 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.09 18:40:52 INFO  time: compiled todocrud in 0.36s[0m
+[0m2022.01.09 18:40:54 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.09 18:40:54 INFO  time: compiled todocrud in 0.13s[0m
+[0m2022.01.09 18:41:14 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.09 18:41:14 INFO  time: compiled todocrud in 0.3s[0m
+[0m2022.01.09 18:41:28 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.09 18:41:28 INFO  time: compiled todocrud in 0.89s[0m
+[0m2022.01.09 18:41:45 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.09 18:41:47 INFO  time: compiled todocrud in 1.7s[0m
+[0m2022.01.09 18:43:04 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.09 18:43:05 INFO  time: compiled todocrud in 1.08s[0m
+[0m2022.01.09 18:43:38 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.09 18:43:38 INFO  time: compiled todocrud in 0.92s[0m
+[0m2022.01.09 18:44:40 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.09 18:44:40 INFO  time: compiled todocrud in 0.81s[0m
+Jan 09, 2022 6:51:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+scala.MatchError: scala.MatchError: scala.meta.internal.metals.debug.BuildTargetNotFoundException: Build target not found: Main (of class scala.meta.internal.metals.debug.BuildTargetNotFoundException) (of class scala.MatchError)
+	at scala.PartialFunction$$anon$1.apply(PartialFunction.scala:259)
+	at scala.PartialFunction$$anon$1.apply(PartialFunction.scala:257)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$1.applyOrElse(DebugProvider.scala:443)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$1.applyOrElse(DebugProvider.scala:443)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.util.Success.foreach(Try.scala:253)
+	at scala.concurrent.Future.$anonfun$foreach$1$adapted(Future.scala:229)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Jan 09, 2022 6:51:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.MatchError: scala.meta.internal.metals.debug.BuildTargetNotFoundException: Build target not found: Main (of class scala.meta.internal.metals.debug.BuildTargetNotFoundException)
+java.util.concurrent.CompletionException: scala.MatchError: scala.meta.internal.metals.debug.BuildTargetNotFoundException: Build target not found: Main (of class scala.meta.internal.metals.debug.BuildTargetNotFoundException)
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.unipush(CompletableFuture.java:589)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:733)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.MatchError: scala.meta.internal.metals.debug.BuildTargetNotFoundException: Build target not found: Main (of class scala.meta.internal.metals.debug.BuildTargetNotFoundException)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder$$anonfun$findMainClassAndItsBuildTarget$4.applyOrElse(BuildTargetClassesFinder.scala:38)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder$$anonfun$findMainClassAndItsBuildTarget$4.applyOrElse(BuildTargetClassesFinder.scala:37)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.util.Failure.recoverWith(Try.scala:236)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:355)
+	at scala.meta.internal.metals.debug.DebugProvider.withRebuildRetry(DebugProvider.scala:571)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveMainClassParams(DebugProvider.scala:351)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1726)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+[0m2022.01.09 18:52:08 INFO  running 'C:\Users\gianc\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\gianc\AppData\Local\Temp\metals6358567216978730359\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.01.09 18:52:09 INFO  [info] welcome to sbt 1.6.1 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2022.01.09 18:52:09 INFO  [info] loading settings for project todocrud-build-build from metals.sbt ...[0m
+[0m2022.01.09 18:52:11 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\project\project[0m
+[0m2022.01.09 18:52:11 INFO  [info] loading settings for project todocrud-build from metals.sbt ...[0m
+[0m2022.01.09 18:52:11 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\project[0m
+[0m2022.01.09 18:52:14 INFO  [success] Generated .bloop\todocrud-build.json[0m
+[0m2022.01.09 18:52:14 INFO  [success] Total time: 2 s, completed Jan 9, 2022, 6:52:14 PM[0m
+[0m2022.01.09 18:52:14 INFO  [info] loading settings for project todocrud from build.sbt ...[0m
+[0m2022.01.09 18:52:14 INFO  [info] set current project to hello-world (in build file:/C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/)[0m
+[0m2022.01.09 18:52:14 INFO  [success] Generated .bloop\todocrud.json[0m
+[0m2022.01.09 18:52:14 INFO  [success] Generated .bloop\todocrud-test.json[0m
+[0m2022.01.09 18:52:14 INFO  [success] Total time: 0 s, completed Jan 9, 2022, 6:52:14 PM[0m
+[0m2022.01.09 18:52:14 INFO  time: ran 'sbt bloopInstall' in 6.58s[0m
+[0m2022.01.09 18:52:14 INFO  Disconnecting from Bloop session...[0m
+[0m2022.01.09 18:52:14 INFO  Shut down connection with build server.[0m
+[0m2022.01.09 18:52:14 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.09 18:52:14 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19374'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19374...
+The server is listening for incoming connections at tcp://127.0.0.1:19374...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.09 18:52:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.09 18:52:15 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31447'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31447...
+The server is listening for incoming connections at tcp://127.0.0.1:31447...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.09 18:52:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.09 18:52:15 INFO  time: Connected to build server in 0.57s[0m
+[0m2022.01.09 18:52:15 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.09 18:52:16 INFO  time: indexed workspace in 1.25s[0m
+[0m2022.01.09 18:52:17 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+scala.MatchError: scala.MatchError: scala.meta.internal.metals.debug.BuildTargetNotFoundException: Build target not found: Main (of class scala.meta.internal.metals.debug.BuildTargetNotFoundException) (of class scala.MatchError)
+	at scala.PartialFunction$$anon$1.apply(PartialFunction.scala:259)
+	at scala.PartialFunction$$anon$1.apply(PartialFunction.scala:257)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$1.applyOrElse(DebugProvider.scala:443)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$1.applyOrElse(DebugProvider.scala:443)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.util.Success.foreach(Try.scala:253)
+	at scala.concurrent.Future.$anonfun$foreach$1$adapted(Future.scala:229)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Jan 09, 2022 6:52:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.MatchError: scala.meta.internal.metals.debug.BuildTargetNotFoundException: Build target not found: Main (of class scala.meta.internal.metals.debug.BuildTargetNotFoundException)
+java.util.concurrent.CompletionException: scala.MatchError: scala.meta.internal.metals.debug.BuildTargetNotFoundException: Build target not found: Main (of class scala.meta.internal.metals.debug.BuildTargetNotFoundException)
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.MatchError: scala.meta.internal.metals.debug.BuildTargetNotFoundException: Build target not found: Main (of class scala.meta.internal.metals.debug.BuildTargetNotFoundException)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder$$anonfun$findMainClassAndItsBuildTarget$4.applyOrElse(BuildTargetClassesFinder.scala:38)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder$$anonfun$findMainClassAndItsBuildTarget$4.applyOrElse(BuildTargetClassesFinder.scala:37)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.util.Failure.recoverWith(Try.scala:236)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:355)
+	at scala.meta.internal.metals.debug.DebugProvider.withRebuildRetry(DebugProvider.scala:571)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveMainClassParams(DebugProvider.scala:351)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1726)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+Jan 09, 2022 6:52:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2022.01.09 18:52:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2022.01.09 18:52:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2022.01.09 18:52:47 INFO  Starting debug proxy for [Main][0m
+[0m2022.01.09 18:52:48 INFO  Trying to attach to remote debuggee VM 127.0.0.1:65235 .[0m
+[0m2022.01.09 18:52:48 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2022.01.09 18:52:48 ERROR java.lang.ClassNotFoundException: com.mysql.jdbc.Driver[0m
+[0m2022.01.09 18:52:48 ERROR 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)[0m
+[0m2022.01.09 18:52:48 ERROR 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)[0m
+[0m2022.01.09 18:52:48 ERROR 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)[0m
+[0m2022.01.09 18:52:48 ERROR 	at java.base/java.lang.Class.forName0(Native Method)[0m
+[0m2022.01.09 18:52:48 ERROR 	at java.base/java.lang.Class.forName(Class.java:315)[0m
+[0m2022.01.09 18:52:48 ERROR 	at Main$.main(Main.scala:16)[0m
+[0m2022.01.09 18:52:48 ERROR 	at Main.main(Main.scala)[0m
+[0m2022.01.09 18:52:48 ERROR Exception in thread "main" java.lang.NullPointerException[0m
+[0m2022.01.09 18:52:48 ERROR 	at Main$.main(Main.scala:52)[0m
+[0m2022.01.09 18:52:48 ERROR 	at Main.main(Main.scala)[0m
+[0m2022.01.09 18:52:47 INFO  Canceling debug proxy for [Main][0m
+[0m2022.01.09 18:52:48 INFO  Closing debug server tcp://0.0.0.0:65232[0m
+[0m2022.01.09 18:52:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2022.01.09 18:52:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2022.01.09 18:52:54 INFO  Starting debug proxy for [Main][0m
+[0m2022.01.09 18:52:55 INFO  Trying to attach to remote debuggee VM 127.0.0.1:65244 .[0m
+[0m2022.01.09 18:52:55 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2022.01.09 18:52:55 ERROR java.lang.ClassNotFoundException: com.mysql.jdbc.Driver[0m
+[0m2022.01.09 18:52:55 ERROR 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)[0m
+[0m2022.01.09 18:52:55 ERROR 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)[0m
+[0m2022.01.09 18:52:55 ERROR 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)[0m
+[0m2022.01.09 18:52:55 ERROR 	at java.base/java.lang.Class.forName0(Native Method)[0m
+[0m2022.01.09 18:52:55 ERROR 	at java.base/java.lang.Class.forName(Class.java:315)[0m
+[0m2022.01.09 18:52:55 ERROR 	at Main$.main(Main.scala:16)[0m
+[0m2022.01.09 18:52:55 ERROR 	at Main.main(Main.scala)[0m
+[0m2022.01.09 18:52:55 ERROR Exception in thread "main" java.lang.NullPointerException[0m
+[0m2022.01.09 18:52:55 ERROR 	at Main$.main(Main.scala:52)[0m
+[0m2022.01.09 18:52:55 ERROR 	at Main.main(Main.scala)[0m
+[0m2022.01.09 18:52:55 INFO  Canceling debug proxy for [Main][0m
+[0m2022.01.09 18:52:55 INFO  Closing debug server tcp://0.0.0.0:65241[0m
+[0m2022.01.09 18:53:48 INFO  time: code lens generation in 1.41s[0m
+[0m2022.01.09 18:53:48 INFO  time: code lens generation in 1.4s[0m
+[0m2022.01.09 18:54:05 INFO  Deduplicating compilation of todocrud from bsp client 'Metals 0.10.9' (since 1m 50.638s)[0m
+[0m2022.01.09 18:54:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2022.01.09 18:54:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2022.01.09 18:54:10 INFO  Starting debug proxy for [Main][0m
+[0m2022.01.09 18:54:11 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63398 .[0m
+[0m2022.01.09 18:54:11 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2022.01.09 18:54:11 ERROR java.lang.ClassNotFoundException: com.mysql.jdbc.Driver[0m
+[0m2022.01.09 18:54:11 ERROR 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)[0m
+[0m2022.01.09 18:54:11 ERROR 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)[0m
+[0m2022.01.09 18:54:11 ERROR 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)[0m
+[0m2022.01.09 18:54:11 ERROR 	at java.base/java.lang.Class.forName0(Native Method)[0m
+[0m2022.01.09 18:54:11 ERROR 	at java.base/java.lang.Class.forName(Class.java:315)[0m
+[0m2022.01.09 18:54:11 ERROR 	at Main$.main(Main.scala:16)[0m
+[0m2022.01.09 18:54:11 ERROR 	at Main.main(Main.scala)[0m
+[0m2022.01.09 18:54:11 ERROR Exception in thread "main" java.lang.NullPointerException[0m
+[0m2022.01.09 18:54:11 ERROR 	at Main$.main(Main.scala:52)[0m
+[0m2022.01.09 18:54:11 ERROR 	at Main.main(Main.scala)[0m
+[0m2022.01.09 18:54:10 INFO  Canceling debug proxy for [Main][0m
+[0m2022.01.09 18:54:11 INFO  Closing debug server tcp://0.0.0.0:63393[0m
+[0m2022.01.09 18:54:18 INFO  shutting down Metals[0m
+[0m2022.01.09 18:54:18 INFO  Shut down connection with build server.[0m
+[0m2022.01.09 18:54:18 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.10 14:00:49 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.10 14:00:51 INFO  time: initialize in 1.4s[0m
+[0m2022.01.10 14:00:51 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.10 14:00:51 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34929'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop\todocrud-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop\todocrud.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'todocrud-test', 'todocrud'
+[0m[32m[D][0m Missing analysis file for project 'todocrud-test'
+[0m[32m[D][0m Loading previous analysis for 'todocrud' from 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34929...
+The server is listening for incoming connections at tcp://127.0.0.1:34929...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.10 14:00:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.10 14:00:52 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 17895'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:17895...
+The server is listening for incoming connections at tcp://127.0.0.1:17895...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.10 14:00:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.10 14:00:53 INFO  time: Connected to build server in 1.42s[0m
+[0m2022.01.10 14:00:53 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.10 14:00:54 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.10 14:00:54 INFO  time: code lens generation in 3.03s[0m
+[0m2022.01.10 14:00:56 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.10 14:00:58 INFO  time: code lens generation in 5.77s[0m
+[0m2022.01.10 14:01:02 INFO  time: indexed workspace in 6.75s[0m
+[0m2022.01.10 14:01:03 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+Jan 10, 2022 2:01:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1641841262427,
+    "message": "Compiled \u0027todocrud\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/?id\u003dtodocrud"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/.bloop/todocrud/bloop-bsp-clients-classes/classes-Metals-N3B1K0BLRneCC4cTwIaInQ\u003d\u003d/",
+      "analysisOut": "file:///C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:235)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:233)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:232)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:232)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10(MetalsLanguageServer.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10$adapted(MetalsLanguageServer.scala:405)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:172)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:169)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:168)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:168)
+	... 16 more
+
+[0m2022.01.10 14:05:40 INFO  shutting down Metals[0m
+[0m2022.01.10 14:05:40 INFO  Shut down connection with build server.[0m
+[0m2022.01.10 14:05:40 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.10 14:09:08 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.10 14:09:10 INFO  time: initialize in 1.27s[0m
+[0m2022.01.10 14:09:10 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.10 14:09:10 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40989'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40989...
+The server is listening for incoming connections at tcp://127.0.0.1:40989...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.10 14:09:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.10 14:09:11 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19063'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19063...
+The server is listening for incoming connections at tcp://127.0.0.1:19063...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.10 14:09:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.10 14:09:11 INFO  time: Connected to build server in 1.24s[0m
+[0m2022.01.10 14:09:11 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.10 14:09:13 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.10 14:09:14 INFO  time: code lens generation in 2.99s[0m
+[0m2022.01.10 14:09:15 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.10 14:09:16 INFO  time: code lens generation in 1.36s[0m
+[0m2022.01.10 14:09:16 INFO  time: code lens generation in 5.47s[0m
+[0m2022.01.10 14:09:16 INFO  time: code lens generation in 1.36s[0m
+[0m2022.01.10 14:09:18 INFO  time: indexed workspace in 4.08s[0m
+[0m2022.01.10 14:09:19 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2022.01.10 14:09:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2022.01.10 14:09:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2022.01.10 14:09:29 INFO  Starting debug proxy for [Main][0m
+[0m2022.01.10 14:09:31 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55349 .[0m
+[0m2022.01.10 14:09:31 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2022.01.10 14:09:31 ERROR java.lang.ClassNotFoundException: com.mysql.jdbc.Driver[0m
+[0m2022.01.10 14:09:31 ERROR 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)[0m
+[0m2022.01.10 14:09:31 ERROR 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)[0m
+[0m2022.01.10 14:09:31 ERROR 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)[0m
+[0m2022.01.10 14:09:31 ERROR 	at java.base/java.lang.Class.forName0(Native Method)[0m
+[0m2022.01.10 14:09:31 ERROR 	at java.base/java.lang.Class.forName(Class.java:315)[0m
+[0m2022.01.10 14:09:31 ERROR 	at Main$.main(Main.scala:16)[0m
+[0m2022.01.10 14:09:31 ERROR 	at Main.main(Main.scala)[0m
+[0m2022.01.10 14:09:31 ERROR Exception in thread "main" java.lang.NullPointerException[0m
+[0m2022.01.10 14:09:31 ERROR 	at Main$.main(Main.scala:52)[0m
+[0m2022.01.10 14:09:31 ERROR 	at Main.main(Main.scala)[0m
+[0m2022.01.10 14:09:31 INFO  Closing debug server tcp://0.0.0.0:55346[0m
+[0m2022.01.10 14:09:31 INFO  Canceling debug proxy for [Main][0m
+[0m2022.01.10 14:24:51 INFO  time: code lens generation in 1.74s[0m
+[0m2022.01.10 14:24:51 INFO  time: code lens generation in 1.72s[0m
+[0m2022.01.10 14:25:56 INFO  running 'C:\Users\gianc\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\gianc\AppData\Local\Temp\metals93836234181343445\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.01.10 14:25:59 INFO  [info] welcome to sbt 1.6.1 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2022.01.10 14:25:59 INFO  [info] loading settings for project todocrud-build-build from metals.sbt ...[0m
+[0m2022.01.10 14:26:00 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\project\project[0m
+[0m2022.01.10 14:26:00 INFO  [info] loading settings for project todocrud-build from metals.sbt ...[0m
+[0m2022.01.10 14:26:00 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\project[0m
+[0m2022.01.10 14:26:04 INFO  [success] Generated .bloop\todocrud-build.json[0m
+[0m2022.01.10 14:26:04 INFO  [success] Total time: 3 s, completed Jan 10, 2022, 2:26:04 PM[0m
+[0m2022.01.10 14:26:06 INFO  [info] loading settings for project todocrud from build.sbt ...[0m
+[0m2022.01.10 14:26:06 INFO  [info] set current project to hello-world (in build file:/C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/)[0m
+[0m2022.01.10 14:26:06 INFO  [success] Generated .bloop\todocrud.json[0m
+[0m2022.01.10 14:26:06 INFO  [success] Generated .bloop\todocrud-test.json[0m
+[0m2022.01.10 14:26:06 INFO  [success] Total time: 0 s, completed Jan 10, 2022, 2:26:07 PM[0m
+[0m2022.01.10 14:26:07 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+[0m2022.01.10 14:26:07 INFO  Disconnecting from Bloop session...[0m
+[0m2022.01.10 14:26:07 INFO  Shut down connection with build server.[0m
+[0m2022.01.10 14:26:07 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2022.01.10 14:26:07 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31896'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop\todocrud-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop\todocrud.json'
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'todocrud', 'todocrud-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31896...
+The server is listening for incoming connections at tcp://127.0.0.1:31896...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.10 14:26:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.10 14:26:07 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23878'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23878...
+The server is listening for incoming connections at tcp://127.0.0.1:23878...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.10 14:26:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.10 14:26:07 INFO  time: Connected to build server in 0.59s[0m
+[0m2022.01.10 14:26:07 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.10 14:26:09 INFO  time: indexed workspace in 1.19s[0m
+[0m2022.01.10 14:26:10 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+Jan 10, 2022 2:27:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 83
+[0m2022.01.10 14:27:11 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 14:27:14 INFO  time: compiled todocrud in 3.02s[0m
+[0m2022.01.10 15:50:14 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 15:50:15 INFO  time: compiled todocrud in 1.72s[0m
+[0m2022.01.10 15:51:47 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 15:51:48 INFO  time: compiled todocrud in 1.03s[0m
+[0m2022.01.10 15:52:08 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 15:52:08 INFO  time: compiled todocrud in 0.99s[0m
+[0m2022.01.10 15:52:57 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 15:52:57 INFO  time: compiled todocrud in 0.79s[0m
+[0m2022.01.10 16:49:32 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 16:49:33 INFO  time: compiled todocrud in 1.01s[0m
+[0m2022.01.10 16:55:01 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 16:55:01 INFO  time: compiled todocrud in 0.76s[0m
+[0m2022.01.10 16:56:10 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 16:56:10 INFO  time: compiled todocrud in 0.85s[0m
+[0m2022.01.10 17:01:35 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 17:01:35 INFO  time: compiled todocrud in 0.15s[0m
+[0m2022.01.10 17:02:06 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 17:02:06 INFO  time: compiled todocrud in 0.19s[0m
+Jan 10, 2022 5:02:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 882
+Jan 10, 2022 5:02:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 885
+[0m2022.01.10 17:02:20 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 17:02:20 INFO  time: compiled todocrud in 0.67s[0m
+[0m2022.01.10 17:02:26 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.10 17:02:26 INFO  time: compiled todocrud in 0.68s[0m
+Jan 10, 2022 5:04:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 10, 2022 5:04:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 10, 2022 5:04:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 10, 2022 5:04:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 10, 2022 5:04:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 10, 2022 5:04:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 10, 2022 5:04:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 10, 2022 5:04:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 10, 2022 5:04:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 10, 2022 5:04:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2022.01.10 17:12:55 INFO  shutting down Metals[0m
+[0m2022.01.10 17:12:55 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.10 17:12:55 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.11 14:15:05 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.11 14:15:06 INFO  time: initialize in 1.15s[0m
+[0m2022.01.11 14:15:07 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.11 14:15:06 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34524'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2022.01.11 14:15:13 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.11...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop\todocrud-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\.bloop\todocrud.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'todocrud', 'todocrud-test'
+[0m[32m[D][0m Missing analysis file for project 'todocrud-test'
+[0m[32m[D][0m Loading previous analysis for 'todocrud' from 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34524...
+The server is listening for incoming connections at tcp://127.0.0.1:34524...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.11 14:15:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.11 14:15:14 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39014'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39014...
+The server is listening for incoming connections at tcp://127.0.0.1:39014...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.11 14:15:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.11 14:15:15 INFO  time: Connected to build server in 8.22s[0m
+[0m2022.01.11 14:15:15 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.11 14:15:15 INFO  time: Imported build in 0.12s[0m
+[0m2022.01.11 14:15:15 INFO  time: code lens generation in 7.92s[0m
+[0m2022.01.11 14:15:16 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.11 14:15:16 INFO  time: code lens generation in 9.37s[0m
+[0m2022.01.11 14:15:21 INFO  time: indexed workspace in 5.62s[0m
+[0m2022.01.11 14:15:22 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+Jan 11, 2022 2:15:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1641928521982,
+    "message": "Compiled \u0027todocrud\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/?id\u003dtodocrud"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/.bloop/todocrud/bloop-bsp-clients-classes/classes-Metals-Dn1wmN70TLatJTOIH2WRyQ\u003d\u003d/",
+      "analysisOut": "file:///C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:235)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:233)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:232)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:232)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10(MetalsLanguageServer.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10$adapted(MetalsLanguageServer.scala:405)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:172)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:169)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:168)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:168)
+	... 16 more
+
+[0m2022.01.11 14:19:37 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:19:39 INFO  time: compiled todocrud in 1.87s[0m
+Jan 11, 2022 2:19:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: offset 1154, count -2, length 2346
+java.lang.StringIndexOutOfBoundsException: offset 1154, count -2, length 2346
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3304)
+	at java.base/java.lang.String.rangeCheck(String.java:280)
+	at java.base/java.lang.String.<init>(String.java:276)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1235)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1258)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+[0m2022.01.11 14:20:01 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:20:01 INFO  time: compiled todocrud in 92ms[0m
+Jan 11, 2022 2:20:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 188
+[0m2022.01.11 14:21:44 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:21:44 INFO  time: compiled todocrud in 0.52s[0m
+[0m2022.01.11 14:22:04 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:22:04 INFO  time: compiled todocrud in 73ms[0m
+[0m2022.01.11 14:22:16 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:22:17 INFO  time: compiled todocrud in 1.6s[0m
+[0m2022.01.11 14:23:06 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:23:06 INFO  time: compiled todocrud in 0.9s[0m
+[0m2022.01.11 14:24:44 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:24:44 INFO  time: compiled todocrud in 0.22s[0m
+[0m2022.01.11 14:27:08 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:27:08 INFO  time: compiled todocrud in 0.19s[0m
+[0m2022.01.11 14:28:19 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:28:19 INFO  time: compiled todocrud in 0.17s[0m
+[0m2022.01.11 14:34:03 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:34:03 INFO  time: compiled todocrud in 0.14s[0m
+[0m2022.01.11 14:34:09 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:34:09 INFO  time: compiled todocrud in 0.13s[0m
+[0m2022.01.11 14:34:28 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:34:28 INFO  time: compiled todocrud in 0.79s[0m
+[0m2022.01.11 14:35:52 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:35:52 INFO  time: compiled todocrud in 0.14s[0m
+[0m2022.01.11 14:36:41 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:36:41 INFO  time: compiled todocrud in 0.14s[0m
+[0m2022.01.11 14:37:11 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:37:11 INFO  time: compiled todocrud in 0.13s[0m
+[0m2022.01.11 14:41:28 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 14:41:28 INFO  time: compiled todocrud in 0.18s[0m
+[0m2022.01.11 15:06:37 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:06:37 INFO  time: compiled todocrud in 0.77s[0m
+[0m2022.01.11 15:07:29 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:07:29 INFO  time: compiled todocrud in 0.65s[0m
+[0m2022.01.11 15:18:53 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:18:53 INFO  time: compiled todocrud in 0.16s[0m
+[0m2022.01.11 15:19:21 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:19:21 INFO  time: compiled todocrud in 0.15s[0m
+[0m2022.01.11 15:19:30 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:19:30 INFO  time: compiled todocrud in 0.11s[0m
+[0m2022.01.11 15:19:52 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:19:52 INFO  time: compiled todocrud in 47ms[0m
+[0m2022.01.11 15:19:54 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:19:54 INFO  time: compiled todocrud in 52ms[0m
+[0m2022.01.11 15:21:04 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:21:04 INFO  time: compiled todocrud in 0.15s[0m
+[0m2022.01.11 15:21:18 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:21:18 INFO  time: compiled todocrud in 59ms[0m
+[0m2022.01.11 15:21:27 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:21:27 INFO  time: compiled todocrud in 0.14s[0m
+Jan 11, 2022 3:21:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2601
+[0m2022.01.11 15:21:35 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:21:35 INFO  time: compiled todocrud in 0.14s[0m
+[0m2022.01.11 15:21:46 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:21:46 INFO  time: compiled todocrud in 0.11s[0m
+[0m2022.01.11 15:22:04 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:22:05 INFO  time: compiled todocrud in 1.05s[0m
+[0m2022.01.11 15:23:57 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:23:57 INFO  time: compiled todocrud in 92ms[0m
+[0m2022.01.11 15:24:00 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:24:00 INFO  time: compiled todocrud in 83ms[0m
+[0m2022.01.11 15:24:03 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:24:03 INFO  time: compiled todocrud in 0.11s[0m
+[0m2022.01.11 15:24:06 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:24:06 INFO  time: compiled todocrud in 83ms[0m
+[0m2022.01.11 15:24:51 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:24:51 INFO  time: compiled todocrud in 0.84s[0m
+[0m2022.01.11 15:26:59 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:26:59 INFO  time: compiled todocrud in 0.66s[0m
+[0m2022.01.11 15:28:41 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:28:41 INFO  time: compiled todocrud in 0.84s[0m
+[0m2022.01.11 15:34:22 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:34:22 INFO  time: compiled todocrud in 0.84s[0m
+[0m2022.01.11 15:34:34 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:34:34 INFO  time: compiled todocrud in 0.64s[0m
+[0m2022.01.11 15:36:05 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:36:05 INFO  time: compiled todocrud in 0.72s[0m
+[0m2022.01.11 15:38:05 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:38:05 INFO  time: compiled todocrud in 0.89s[0m
+Jan 11, 2022 3:43:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3712
+[0m2022.01.11 15:45:04 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:45:04 INFO  time: compiled todocrud in 0.85s[0m
+[0m2022.01.11 15:53:58 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:53:58 INFO  time: compiled todocrud in 0.62s[0m
+[0m2022.01.11 15:55:21 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:55:21 INFO  time: compiled todocrud in 0.99s[0m
+[0m2022.01.11 15:56:48 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:56:48 INFO  time: compiled todocrud in 0.56s[0m
+[0m2022.01.11 15:58:29 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 15:58:29 INFO  time: compiled todocrud in 0.64s[0m
+[0m2022.01.11 16:01:45 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 16:01:45 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                               ^[0m
+[0m2022.01.11 16:01:45 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                               ^[0m
+[0m2022.01.11 16:01:45 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                                                                                                 ^[0m
+[0m2022.01.11 16:01:45 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                                                                                                                ^[0m
+[0m2022.01.11 16:01:45 INFO  time: compiled todocrud in 54ms[0m
+[0m2022.01.11 16:02:04 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                               ^[0m
+[0m2022.01.11 16:02:04 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:04 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:04 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                               ^[0m
+[0m2022.01.11 16:02:04 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:04 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:10 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                               ^[0m
+[0m2022.01.11 16:02:10 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:10 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:10 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 16:02:10 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:10 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:10 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:10 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:10 INFO  time: compiled todocrud in 52ms[0m
+[0m2022.01.11 16:02:14 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:14 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:14 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:14 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:14 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:14 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:14 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:14 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:14 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:15 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:15 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:15 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:18 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:18 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:18 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:18 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:18 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:18 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:18 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:18 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:18 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:19 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:19 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:19 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:20 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:20 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:20 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+[0m2022.01.11 16:02:20 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:48: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^[0m
+[0m2022.01.11 16:02:20 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:114: stale bloop error: unclosed character literal (or use " for string literal "$task_desc")
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                 ^[0m
+[0m2022.01.11 16:02:20 INFO  C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72:129: stale bloop error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                                                                                                                ^[0m
+Jan 11, 2022 4:02:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72: error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^
+java.util.concurrent.CompletionException: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72: error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72: error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:537)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:541)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:251)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:214)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:175)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:175)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:170)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1400)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jan 11, 2022 4:02:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72: error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^
+java.util.concurrent.CompletionException: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72: error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\src\main\scala\Main.scala:72: error: illegal character '\u201d'
+      val resultSet = statement.executeUpdate(s”INSERT INTO scala_tasks(task_desc, task_date) VALUES ('$task_desc', $task_date);”)
+                                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:537)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:541)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:251)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:214)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:175)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:175)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:170)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1400)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2022.01.11 16:02:24 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 16:02:24 INFO  time: compiled todocrud in 0.75s[0m
+[0m2022.01.11 16:04:00 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 16:04:00 INFO  time: compiled todocrud in 0.8s[0m
+[0m2022.01.11 16:05:16 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 16:05:16 INFO  time: compiled todocrud in 0.78s[0m
+[0m2022.01.11 16:06:22 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 16:06:22 INFO  time: compiled todocrud in 0.92s[0m
+[0m2022.01.11 16:12:43 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 16:12:43 INFO  time: compiled todocrud in 0.85s[0m
+[0m2022.01.11 16:42:47 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 16:42:47 INFO  time: compiled todocrud in 0.61s[0m
+Jan 11, 2022 4:44:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5318
+[0m2022.01.11 17:06:38 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:06:38 INFO  time: compiled todocrud in 77ms[0m
+[0m2022.01.11 17:06:48 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:06:48 INFO  time: compiled todocrud in 0.63s[0m
+[0m2022.01.11 17:08:56 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:08:56 INFO  time: compiled todocrud in 0.27s[0m
+[0m2022.01.11 17:09:11 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:09:11 INFO  time: compiled todocrud in 0.88s[0m
+[0m2022.01.11 17:12:00 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:12:00 INFO  time: compiled todocrud in 0.66s[0m
+[0m2022.01.11 17:13:04 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:13:04 INFO  time: compiled todocrud in 0.8s[0m
+[0m2022.01.11 17:19:22 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:19:22 INFO  time: compiled todocrud in 0.1s[0m
+[0m2022.01.11 17:20:02 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:20:02 INFO  time: compiled todocrud in 90ms[0m
+[0m2022.01.11 17:20:55 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:20:55 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2022.01.11 17:20:55 INFO  time: compiled todocrud in 0.69s[0m
+[0m2022.01.11 17:21:56 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:21:56 WARN  5 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2022.01.11 17:21:56 INFO  time: compiled todocrud in 0.98s[0m
+[0m2022.01.11 17:25:01 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:25:01 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2022.01.11 17:25:01 INFO  time: compiled todocrud in 0.8s[0m
+Jan 11, 2022 5:26:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7845
+Jan 11, 2022 5:26:24 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 2319, count -1, length 5229
+[0m2022.01.11 17:26:41 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:26:41 INFO  time: compiled todocrud in 0.11s[0m
+[0m2022.01.11 17:27:04 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:27:04 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2022.01.11 17:27:04 INFO  time: compiled todocrud in 0.87s[0m
+[0m2022.01.11 17:30:11 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:30:11 INFO  time: compiled todocrud in 99ms[0m
+[0m2022.01.11 17:30:54 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:30:54 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2022.01.11 17:30:54 INFO  time: compiled todocrud in 0.62s[0m
+[0m2022.01.11 17:31:06 INFO  shutting down Metals[0m
+[0m2022.01.11 17:31:06 INFO  Shut down connection with build server.[0m
+[0m2022.01.11 17:31:06 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.11 17:31:22 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.11 17:31:23 INFO  time: initialize in 1.34s[0m
+[0m2022.01.11 17:31:24 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.11 17:31:23 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36417'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36417...
+The server is listening for incoming connections at tcp://127.0.0.1:36417...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.11 17:31:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.11 17:31:25 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22102'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22102...
+The server is listening for incoming connections at tcp://127.0.0.1:22102...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.11 17:31:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\gianc\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.11 17:31:25 INFO  time: Connected to build server in 1.32s[0m
+[0m2022.01.11 17:31:25 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.11 17:31:26 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.11 17:31:26 INFO  time: code lens generation in 3.33s[0m
+[0m2022.01.11 17:31:28 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.11 17:31:30 INFO  time: code lens generation in 6.13s[0m
+[0m2022.01.11 17:31:32 INFO  time: indexed workspace in 4.57s[0m
+[0m2022.01.11 17:31:33 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+Jan 11, 2022 5:31:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1641940292252,
+    "message": "Compiled \u0027todocrud\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/?id\u003dtodocrud"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/.bloop/todocrud/bloop-bsp-clients-classes/classes-Metals-KbZXGc_vToaobtwAwuVFvQ\u003d\u003d/",
+      "analysisOut": "file:///C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/Project0/todocrud/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:235)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:233)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:232)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:232)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10(MetalsLanguageServer.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10$adapted(MetalsLanguageServer.scala:405)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:172)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:169)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:168)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:168)
+	... 16 more
+
+[0m2022.01.11 17:32:25 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 17:32:25 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2022.01.11 17:32:25 INFO  time: compiled todocrud in 0.8s[0m
+[0m2022.01.11 19:40:22 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 19:40:24 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2022.01.11 19:40:24 INFO  time: compiled todocrud in 1.54s[0m
+[0m2022.01.11 19:41:55 INFO  compiling todocrud (1 scala source)[0m
+[0m2022.01.11 19:41:56 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2022.01.11 19:41:56 INFO  time: compiled todocrud in 1.07s[0m
+[0m2022.01.11 19:59:19 INFO  shutting down Metals[0m
+[0m2022.01.11 19:59:19 INFO  Shut down connection with build server.[0m
+[0m2022.01.11 19:59:19 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
