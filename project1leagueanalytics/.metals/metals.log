@@ -1,0 +1,1887 @@
+2022.02.02 11:35:04 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\.metals\lsp.trace.json or C:\Users\gianc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.02 11:35:05 INFO  logging to file C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\.metals\metals.log
+2022.02.02 11:35:05 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics' for client Visual Studio Code 1.63.2.
+2022.02.02 11:35:05 INFO  Parse release: 11.0.11
+2022.02.02 11:35:06 INFO  time: initialize in 1.76s
+2022.02.02 11:35:07 WARN  Build server is not auto-connectable.
+2022.02.02 11:35:07 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\build.sbt
+2022.02.02 11:35:09 INFO  no build target found for C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\build.sbt. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.02 11:35:10 INFO  time: code lens generation in 3.05s
+2022.02.02 11:35:10 INFO  time: code lens generation in 3.05s
+2022.02.02 11:35:52 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\build.sbt
+2022.02.02 11:35:54 INFO  running 'C:\Users\gianc\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\gianc\AppData\Local\Temp\metals11288941297995211138\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.02 11:35:57 INFO  [info] welcome to sbt 1.6.1 (AdoptOpenJDK Java 11.0.11)
+2022.02.02 11:35:59 INFO  [info] loading settings for project project1leagueanalytics-build-build from metals.sbt ...
+2022.02.02 11:35:59 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\project\project
+2022.02.02 11:36:02 INFO  [info] loading settings for project project1leagueanalytics-build from metals.sbt ...
+2022.02.02 11:36:02 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\project
+2022.02.02 11:36:05 INFO  [success] Generated .bloop\project1leagueanalytics-build.json
+2022.02.02 11:36:05 INFO  [success] Total time: 3 s, completed Feb 2, 2022, 11:36:05 AM
+2022.02.02 11:36:06 INFO  [info] loading settings for project project1leagueanalytics from build.sbt ...
+2022.02.02 11:36:06 INFO  [info] set current project to hello-world (in build file:/C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/project1leagueanalytics/)
+2022.02.02 11:36:06 INFO  [warn] 
+2022.02.02 11:36:06 INFO  [warn] 	Note: Unresolved dependencies path:
+2022.02.02 11:36:06 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:2.3.2
+2022.02.02 11:36:06 INFO  [error]   Not found
+2022.02.02 11:36:06 INFO  [error]   Not found
+2022.02.02 11:36:06 INFO  [error]   not found: C:\Users\gianc\.ivy2\localorg.apache.spark\spark-core_2.13\2.3.2\ivys\ivy.xml
+2022.02.02 11:36:06 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/2.3.2/spark-core_2.13-2.3.2.pom
+2022.02.02 11:36:06 INFO  [error] Error downloading org.apache.spark:spark-hive_2.13:2.3.2
+2022.02.02 11:36:06 INFO  [error]   Not found
+2022.02.02 11:36:06 INFO  [error]   Not found
+2022.02.02 11:36:06 INFO  [error]   not found: C:\Users\gianc\.ivy2\localorg.apache.spark\spark-hive_2.13\2.3.2\ivys\ivy.xml
+2022.02.02 11:36:06 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-hive_2.13/2.3.2/spark-hive_2.13-2.3.2.pom
+2022.02.02 11:36:06 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:345)
+2022.02.02 11:36:06 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:314)
+2022.02.02 11:36:06 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2022.02.02 11:36:06 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:314)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+2022.02.02 11:36:06 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3690)
+2022.02.02 11:36:06 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.Execute.work(Execute.scala:291)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2022.02.02 11:36:06 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+2022.02.02 11:36:06 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2022.02.02 11:36:06 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+2022.02.02 11:36:06 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2022.02.02 11:36:06 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.02.02 11:36:06 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.02.02 11:36:06 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.02.02 11:36:06 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:2.3.2
+2022.02.02 11:36:06 INFO  [error]   Not found
+2022.02.02 11:36:06 INFO  [error]   Not found
+2022.02.02 11:36:06 INFO  [error]   not found: C:\Users\gianc\.ivy2\localorg.apache.spark\spark-core_2.13\2.3.2\ivys\ivy.xml
+2022.02.02 11:36:06 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/2.3.2/spark-core_2.13-2.3.2.pom
+2022.02.02 11:36:06 INFO  [error] Error downloading org.apache.spark:spark-hive_2.13:2.3.2
+2022.02.02 11:36:06 INFO  [error]   Not found
+2022.02.02 11:36:06 INFO  [error]   Not found
+2022.02.02 11:36:06 INFO  [error]   not found: C:\Users\gianc\.ivy2\localorg.apache.spark\spark-hive_2.13\2.3.2\ivys\ivy.xml
+2022.02.02 11:36:06 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-hive_2.13/2.3.2/spark-hive_2.13-2.3.2.pom
+2022.02.02 11:36:06 INFO  [error] Total time: 0 s, completed Feb 2, 2022, 11:36:07 AM
+2022.02.02 11:36:07 INFO  time: ran 'sbt bloopInstall' in 12s
+2022.02.02 11:36:07 ERROR sbt command failed: C:\Users\gianc\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\gianc\AppData\Local\Temp\metals11288941297995211138\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.02.02 11:36:17 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\build.sbt
+2022.02.02 11:36:17 INFO  skipping build import with status 'Dismissed'
+2022.02.02 11:36:27 INFO  running 'C:\Users\gianc\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\gianc\AppData\Local\Temp\metals4889257891815779622\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.02 11:36:29 INFO  [info] welcome to sbt 1.6.1 (AdoptOpenJDK Java 11.0.11)
+2022.02.02 11:36:29 INFO  [info] loading settings for project project1leagueanalytics-build-build from metals.sbt ...
+2022.02.02 11:36:30 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\project\project
+2022.02.02 11:36:30 INFO  [info] loading settings for project project1leagueanalytics-build from metals.sbt ...
+2022.02.02 11:36:30 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\project
+2022.02.02 11:36:32 INFO  [success] Generated .bloop\project1leagueanalytics-build.json
+2022.02.02 11:36:32 INFO  [success] Total time: 2 s, completed Feb 2, 2022, 11:36:33 AM
+2022.02.02 11:36:34 INFO  [info] loading settings for project project1leagueanalytics from build.sbt ...
+2022.02.02 11:36:34 INFO  [info] set current project to hello-world (in build file:/C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/project1leagueanalytics/)
+2022.02.02 11:36:42 INFO  [success] Generated .bloop\project1leagueanalytics-test.json
+2022.02.02 11:36:42 INFO  [success] Generated .bloop\project1leagueanalytics.json
+2022.02.02 11:36:42 INFO  [success] Total time: 8 s, completed Feb 2, 2022, 11:36:42 AM
+2022.02.02 11:36:42 INFO  time: ran 'sbt bloopInstall' in 14s
+2022.02.02 11:36:42 INFO  Attempting to connect to the build server...
+2022.02.02 11:36:42 ERROR Starting the bsp launcher for bloop...
+2022.02.02 11:36:42 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 21345'...
+2022.02.02 11:36:42 ERROR Waiting for the bsp connection to come up...
+2022.02.02 11:36:42 ERROR error: The command bsp --protocol tcp --port 21345 returned with an error
+2022.02.02 11:36:42 ERROR > 
+2022.02.02 11:36:42 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.02 11:36:42 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.02.02 11:37:15 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 11:37:21 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 11:37:48 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\build.sbt
+2022.02.02 11:37:48 INFO  skipping build import with status 'Dismissed'
+2022.02.02 11:37:56 INFO  running 'C:\Users\gianc\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\gianc\AppData\Local\Temp\metals10253308477267025411\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.02 11:37:57 INFO  [info] welcome to sbt 1.6.1 (AdoptOpenJDK Java 11.0.11)
+2022.02.02 11:37:57 INFO  [info] loading settings for project project1leagueanalytics-build-build from metals.sbt ...
+2022.02.02 11:37:58 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\project\project
+2022.02.02 11:37:58 INFO  [info] loading settings for project project1leagueanalytics-build from metals.sbt ...
+2022.02.02 11:37:58 INFO  [info] loading project definition from C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\project
+2022.02.02 11:38:01 INFO  [success] Generated .bloop\project1leagueanalytics-build.json
+2022.02.02 11:38:01 INFO  [success] Total time: 2 s, completed Feb 2, 2022, 11:38:01 AM
+2022.02.02 11:38:02 INFO  [info] loading settings for project project1leagueanalytics from build.sbt ...
+2022.02.02 11:38:02 INFO  [info] set current project to project1leagueanalytics (in build file:/C:/Users/gianc/Desktop/Revature/BigDataRepo/HWRepo/project1leagueanalytics/)
+2022.02.02 11:38:07 INFO  [success] Generated .bloop\project1leagueanalytics-test.json
+2022.02.02 11:38:07 INFO  [success] Generated .bloop\project1leagueanalytics.json
+2022.02.02 11:38:07 INFO  [success] Total time: 5 s, completed Feb 2, 2022, 11:38:07 AM
+2022.02.02 11:38:07 INFO  time: ran 'sbt bloopInstall' in 11s
+2022.02.02 11:38:07 INFO  Attempting to connect to the build server...
+2022.02.02 11:38:08 ERROR Starting the bsp launcher for bloop...
+2022.02.02 11:38:08 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 41187'...
+2022.02.02 11:38:08 ERROR Waiting for the bsp connection to come up...
+2022.02.02 11:38:08 ERROR error: The command bsp --protocol tcp --port 41187 returned with an error
+2022.02.02 11:38:08 ERROR > 
+2022.02.02 11:38:08 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.02 11:38:07 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.02.02 12:02:28 INFO  shutting down Metals
+2022.02.02 12:10:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\.metals\lsp.trace.json or C:\Users\gianc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.02 12:10:22 INFO  logging to file C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\.metals\metals.log
+2022.02.02 12:10:22 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics' for client Visual Studio Code 1.63.2.
+2022.02.02 12:10:22 INFO  Parse release: 11.0.11
+2022.02.02 12:10:24 INFO  time: initialize in 1.89s
+2022.02.02 12:10:24 INFO  Attempting to connect to the build server...
+2022.02.02 12:10:24 INFO  skipping build import with status 'Installed'
+2022.02.02 12:10:25 ERROR Starting the bsp launcher for bloop...
+2022.02.02 12:10:25 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 38208'...
+2022.02.02 12:10:25 ERROR Waiting for the bsp connection to come up...
+2022.02.02 12:10:25 ERROR error: The command bsp --protocol tcp --port 38208 returned with an error
+2022.02.02 12:10:25 ERROR > 
+2022.02.02 12:10:25 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.02 12:10:25 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.02.02 12:10:25 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 12:10:25 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\build.sbt
+Feb 02, 2022 12:10:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.02.02 12:10:27 INFO  no build target found for C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.02 12:10:28 INFO  time: code lens generation in 2.44s
+2022.02.02 12:10:28 INFO  time: code lens generation in 3.6s
+2022.02.02 12:10:28 INFO  time: code lens generation in 3.59s
+2022.02.02 12:10:28 INFO  time: code lens generation in 2.42s
+Feb 02, 2022 12:12:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 30 is not a valid line number, allowed [0..12]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+Feb 02, 2022 12:12:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 59 is not a valid line number, allowed [0..12]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+Feb 02, 2022 12:12:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..12]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+Feb 02, 2022 12:12:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..12]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+Feb 02, 2022 12:12:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..12]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+Feb 02, 2022 2:02:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..12]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+Feb 02, 2022 2:02:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 50 is not a valid line number, allowed [0..12]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+2022.02.02 14:03:01 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 2:13:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1867
+2022.02.02 14:27:21 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 14:29:18 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 14:32:44 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 14:34:29 INFO  shutting down Metals
+2022.02.02 14:35:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\.metals\lsp.trace.json or C:\Users\gianc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.02 14:35:22 INFO  logging to file C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\.metals\metals.log
+2022.02.02 14:35:22 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics' for client Visual Studio Code 1.63.2.
+2022.02.02 14:35:22 INFO  Parse release: 11.0.11
+2022.02.02 14:35:24 INFO  time: initialize in 1.78s
+2022.02.02 14:35:24 INFO  Attempting to connect to the build server...
+2022.02.02 14:35:24 INFO  skipping build import with status 'Installed'
+2022.02.02 14:35:24 ERROR Starting the bsp launcher for bloop...
+2022.02.02 14:35:24 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 40567'...
+2022.02.02 14:35:24 ERROR Waiting for the bsp connection to come up...
+2022.02.02 14:35:24 ERROR error: The command bsp --protocol tcp --port 40567 returned with an error
+2022.02.02 14:35:24 ERROR > 
+2022.02.02 14:35:24 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.02 14:35:24 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.02.02 14:35:24 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 14:35:27 INFO  no build target found for C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.02 14:35:29 INFO  time: code lens generation in 4.82s
+2022.02.02 14:35:29 INFO  time: code lens generation in 4.82s
+2022.02.02 14:42:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\build.sbt
+2022.02.02 14:48:56 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 14:49:22 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 14:49:43 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 14:49:47 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 14:52:35 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 14:53:52 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:14:05 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:34:11 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:37:15 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:39:12 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:39:22 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:40:04 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:41:51 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:45:10 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:46:27 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:47:21 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:49:13 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:52:55 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:53:24 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 16:57:30 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:02:20 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:02:56 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:07:05 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:08:49 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:12:23 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:14:18 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:14:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:17:46 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:18:35 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:25:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:26:42 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:28:59 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:30:22 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:33:00 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:33:03 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:39:29 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:40:53 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:41:05 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:42:04 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:43:08 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:44:33 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:45:05 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 17:50:05 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 20:00:42 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 8:00:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4775
+Feb 02, 2022 8:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4776
+Feb 02, 2022 8:03:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5152
+2022.02.02 20:14:38 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 20:14:47 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 20:15:25 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 8:16:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5868
+Feb 02, 2022 8:16:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5867
+2022.02.02 20:17:16 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 20:18:18 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 20:19:06 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 20:19:06 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 20:19:07 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:19:27 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:19:30 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 10:19:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6197
+2022.02.02 22:20:23 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 10:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6336
+Feb 02, 2022 10:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6337
+Feb 02, 2022 10:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6339
+Feb 02, 2022 10:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6341
+Feb 02, 2022 10:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6342
+Feb 02, 2022 10:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6343
+2022.02.02 22:22:53 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:27:58 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:28:29 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 10:28:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7350
+2022.02.02 22:28:39 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:29:41 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:31:19 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:31:27 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:31:29 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 10:31:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7680
+2022.02.02 22:32:00 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:32:07 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.02.02 22:35:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:36:20 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:36:20 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 10:36:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8164
+Feb 02, 2022 10:36:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8165
+2022.02.02 22:36:42 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:38:12 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:38:25 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 10:40:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8391
+2022.02.02 22:41:12 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:42:03 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:51:24 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:51:29 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 22:58:58 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 10:59:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9932
+Feb 02, 2022 10:59:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9933
+2022.02.02 22:59:07 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 10:59:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9964
+Feb 02, 2022 10:59:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9969
+2022.02.02 22:59:46 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 23:00:38 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 23:01:01 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 02, 2022 11:01:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10075
+2022.02.02 23:07:51 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 23:08:01 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 23:50:23 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.02 23:56:19 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-2" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Feb 03, 2022 12:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12486
+Feb 03, 2022 12:07:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12651
+2022.02.03 00:33:45 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:44:23 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:46:19 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:48:28 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:52:10 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:55:20 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:55:47 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:56:16 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:57:09 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:57:36 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:58:03 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:58:17 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 00:59:16 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:00:17 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:00:49 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:01:15 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:01:36 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:01:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:04:03 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:04:24 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:05:11 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:06:55 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 1:09:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16100
+2022.02.03 01:09:12 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:09:49 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:10:11 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:10:38 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:10:43 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:11:04 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:12:56 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:48:27 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:49:34 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:50:01 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:52:12 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:57:24 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 01:59:12 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:01:28 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:08:40 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:08:54 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:08:56 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:09:00 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:09:34 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:10:20 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:12:25 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:16:39 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 2:16:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18069
+2022.02.03 02:16:48 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:17:21 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:18:42 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:18:49 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:19:27 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 2:19:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18376
+2022.02.03 02:19:40 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:22:10 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:23:41 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 2:25:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18963
+2022.02.03 02:26:11 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 2:28:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19316
+2022.02.03 02:31:06 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:34:22 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:34:52 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:35:07 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:36:07 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:36:27 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:36:53 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:36:59 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:37:44 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:39:29 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:39:47 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.02.03 02:41:09 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:41:45 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:43:23 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:45:23 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 2:45:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20675
+2022.02.03 02:45:42 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:46:00 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:46:11 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:47:18 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:49:47 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 02:49:58 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-4" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-5" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-6" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-7" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-8" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-9" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-10" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-11" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-12" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-13" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-14" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-15" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-16" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-17" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Feb 03, 2022 2:51:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21126
+Exception in thread "pool-3-thread-18" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-19" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-20" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-21" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-22" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-23" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Feb 03, 2022 2:52:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21171
+2022.02.03 03:22:00 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 3:25:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21937
+2022.02.03 03:30:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:32:35 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:33:21 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 3:33:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22679
+Feb 03, 2022 3:33:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22681
+2022.02.03 03:33:31 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:34:02 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:34:25 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 3:35:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22941
+2022.02.03 03:37:25 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:43:33 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 3:43:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23705
+2022.02.03 03:45:29 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:46:28 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:46:37 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 3:47:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24099
+2022.02.03 03:48:18 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:48:44 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 3:49:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24422
+2022.02.03 03:49:42 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:49:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:51:10 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:51:24 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:51:30 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 03:52:22 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:00:34 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:00:54 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:01:29 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:02:13 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:03:09 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:03:36 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:04:15 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:04:29 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:05:19 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:05:36 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:08:10 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:08:12 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:08:26 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:08:46 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:08:59 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:09:39 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:10:23 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-24" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-25" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-26" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-27" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-28" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-29" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-30" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-31" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-32" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-33" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-34" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-35" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-36" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-37" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-38" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-39" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-40" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-41" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-42" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-43" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:168)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Feb 03, 2022 4:16:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26996
+Feb 03, 2022 4:18:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27266
+Feb 03, 2022 4:22:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27926
+2022.02.03 04:25:10 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 4:25:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 486 is not a valid line number, allowed [0..478]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+Feb 03, 2022 4:25:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28370
+2022.02.03 04:26:12 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 4:26:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28430
+2022.02.03 04:26:18 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:27:19 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:27:40 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:28:01 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:30:32 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:30:53 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:31:37 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:31:40 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:32:09 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:33:15 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:33:35 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:33:43 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:33:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 4:34:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29434
+Feb 03, 2022 4:34:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29442
+2022.02.03 04:34:28 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:34:34 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 4:34:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29501
+2022.02.03 04:34:50 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:34:51 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:34:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:35:56 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:35:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:38:40 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:39:38 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:41:42 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:43:31 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:43:39 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 4:43:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29877
+2022.02.03 04:43:46 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:44:37 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 4:45:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29901
+2022.02.03 04:45:38 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:45:40 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:48:21 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:51:38 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:52:22 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:53:19 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:53:50 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:53:50 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 04:56:53 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:01:00 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:01:18 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:03:00 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:04:56 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:05:52 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:07:49 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 5:08:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30751
+2022.02.03 05:08:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:08:57 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:09:00 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-44" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Feb 03, 2022 5:10:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30960
+Feb 03, 2022 5:10:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30987
+Feb 03, 2022 5:11:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31244
+2022.02.03 05:11:58 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:13:03 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:17:25 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:18:11 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:22:15 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:22:28 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:23:02 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:25:24 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:25:51 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:26:11 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:27:39 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 5:27:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32425
+2022.02.03 05:28:05 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 5:28:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32500
+2022.02.03 05:28:39 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:28:48 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:30:48 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+Feb 03, 2022 5:31:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32619
+Feb 03, 2022 5:31:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32620
+2022.02.03 05:31:53 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:33:56 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 05:34:51 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 10:38:32 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\.metals\lsp.trace.json or C:\Users\gianc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.03 10:38:32 INFO  logging to file C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\.metals\metals.log
+2022.02.03 10:38:32 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics' for client Visual Studio Code 1.63.2.
+2022.02.03 10:38:32 INFO  Parse release: 11.0.11
+2022.02.03 10:38:34 INFO  time: initialize in 1.75s
+2022.02.03 10:38:39 INFO  Attempting to connect to the build server...
+2022.02.03 10:38:39 INFO  skipping build import with status 'Installed'
+2022.02.03 10:38:44 ERROR Starting the bsp launcher for bloop...
+2022.02.03 10:38:44 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 21857'...
+2022.02.03 10:38:44 ERROR Waiting for the bsp connection to come up...
+2022.02.03 10:38:44 ERROR Waiting for the bsp connection to come up...
+2022.02.03 10:38:44 ERROR Waiting for the bsp connection to come up...
+2022.02.03 10:38:44 ERROR Waiting for the bsp connection to come up...
+2022.02.03 10:38:44 ERROR error: The command bsp --protocol tcp --port 21857 returned with an error
+2022.02.03 10:38:44 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2022.02.03 10:38:44 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.12...
+2022.02.03 10:38:44 ERROR > Starting bloop server at 127.0.0.1:8212...
+2022.02.03 10:38:44 ERROR > Attempting a connection to the server...
+2022.02.03 10:38:44 ERROR > java.io.IOException: Cannot run program "powershell.exe": CreateProcess error=2, The system cannot find the file specified
+2022.02.03 10:38:44 ERROR > 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+2022.02.03 10:38:44 ERROR > 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+2022.02.03 10:38:44 ERROR > 	at io.github.soc.directories.Util.runCommands(Util.java:147)
+2022.02.03 10:38:44 ERROR > 	at io.github.soc.directories.Util.getWinDirs(Util.java:119)
+2022.02.03 10:38:44 ERROR > 	at io.github.soc.directories.ProjectDirectories.fromPath(ProjectDirectories.java:220)
+2022.02.03 10:38:44 ERROR > 	at io.github.soc.directories.ProjectDirectories.from(ProjectDirectories.java:272)
+2022.02.03 10:38:44 ERROR > 	at bloop.io.Paths$.<init>(Paths.scala:22)
+2022.02.03 10:38:44 ERROR > 	at bloop.io.Paths$.<clinit>(Paths.scala)
+2022.02.03 10:38:44 ERROR > 	at bloop.engine.BuildLoader$.readConfigurationFilesInBase(BuildLoader.scala:35)
+2022.02.03 10:38:44 ERROR > 	at bloop.engine.Build.checkForChange(Build.scala:57)
+2022.02.03 10:38:44 ERROR > 	at bloop.engine.caches.StateCache.loadState(StateCache.scala:99)
+2022.02.03 10:38:44 ERROR > 	at bloop.engine.State$.loadActiveStateFor(State.scala:102)
+2022.02.03 10:38:44 ERROR > 	at bloop.Cli$.$anonfun$runWithState$1(Cli.scala:360)
+2022.02.03 10:38:44 ERROR > 	at bloop.Cli$.sessionFor$1(Cli.scala:402)
+2022.02.03 10:38:44 ERROR > 	at bloop.Cli$.runTaskWithCliClient(Cli.scala:406)
+2022.02.03 10:38:44 ERROR > 	at bloop.Cli$.runWithState(Cli.scala:372)
+2022.02.03 10:38:44 ERROR > 	at bloop.Cli$.run(Cli.scala:340)
+2022.02.03 10:38:44 ERROR > 	at bloop.Cli$.run(Cli.scala:294)
+2022.02.03 10:38:44 ERROR > 	at bloop.Cli$.nailMain(Cli.scala:91)
+2022.02.03 10:38:44 ERROR > 	at bloop.Cli.nailMain(Cli.scala)
+2022.02.03 10:38:44 ERROR > 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022.02.03 10:38:44 ERROR > 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2022.02.03 10:38:44 ERROR > 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2022.02.03 10:38:44 ERROR > 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2022.02.03 10:38:44 ERROR > 	at com.martiansoftware.nailgun.NGSession.run(NGSession.java:280)
+2022.02.03 10:38:44 ERROR > Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2022.02.03 10:38:44 ERROR > 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2022.02.03 10:38:44 ERROR > 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:487)
+2022.02.03 10:38:44 ERROR > 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:154)
+2022.02.03 10:38:44 ERROR > 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+2022.02.03 10:38:44 ERROR > 	... 24 more
+2022.02.03 10:38:44 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.03 10:38:44 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.02.03 10:38:44 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 10:38:45 INFO  no build target found for C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.03 10:38:47 INFO  time: code lens generation in 7.72s
+2022.02.03 10:38:47 INFO  time: code lens generation in 7.72s
+2022.02.03 10:39:46 INFO  shutting down Metals
+2022.02.03 10:42:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\.metals\lsp.trace.json or C:\Users\gianc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.03 10:42:11 INFO  logging to file C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\.metals\metals.log
+2022.02.03 10:42:11 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics' for client Visual Studio Code 1.63.2.
+2022.02.03 10:42:11 INFO  Parse release: 11.0.11
+2022.02.03 10:42:13 INFO  time: initialize in 1.82s
+2022.02.03 10:42:13 INFO  Attempting to connect to the build server...
+2022.02.03 10:42:13 INFO  skipping build import with status 'Installed'
+2022.02.03 10:42:13 ERROR Starting the bsp launcher for bloop...
+2022.02.03 10:42:13 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 20270'...
+2022.02.03 10:42:13 ERROR Waiting for the bsp connection to come up...
+2022.02.03 10:42:13 ERROR error: The command bsp --protocol tcp --port 20270 returned with an error
+2022.02.03 10:42:13 ERROR > 
+2022.02.03 10:42:13 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.03 10:42:13 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.02.03 10:42:13 WARN  no build target for: C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala
+2022.02.03 10:42:18 INFO  no build target found for C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\project1leagueanalytics\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.03 10:42:20 INFO  time: code lens generation in 6.12s
+2022.02.03 10:42:20 INFO  time: code lens generation in 6.12s

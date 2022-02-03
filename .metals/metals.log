@@ -1,0 +1,12 @@
+2022.02.02 11:34:28 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\.metals\lsp.trace.json or C:\Users\gianc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.02 11:34:29 INFO  logging to file C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\.metals\metals.log
+2022.02.02 11:34:29 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo' for client Visual Studio Code 1.63.2.
+2022.02.02 11:34:29 INFO  Parse release: 11.0.11
+2022.02.02 11:34:30 INFO  time: initialize in 1.63s
+2022.02.02 11:34:30 WARN  Build server is not auto-connectable.
+2022.02.02 11:34:30 WARN  no build tool detected in workspace 'C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.02.02 11:34:55 INFO  
+2022.02.02 11:34:55 INFO  Template applied in C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\.\project1leagueanalytics
+2022.02.02 11:34:55 INFO  
+2022.02.02 11:34:55 INFO  time: ran 'giter8.Giter8' in 3.05s
+2022.02.02 11:35:00 INFO  shutting down Metals

@@ -1,6 +1,57 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 2 products, 1 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/Main.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/Main.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 1 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.6.0:compile for Scala 2.13.3[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.13' for Scala 2.13.3. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.13.3.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6b88e276[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.6.0\compiler-interface-1.6.0.jar;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.6.0\util-interface-1.6.0.jar;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-bridge_2.13\1.6.0\compiler-bridge_2.13-1.6.0-sources.jar;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\scala\ZincCompat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\AbstractZincFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\CompilerBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\ConsoleBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\InteractiveConsoleBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\InteractiveConsoleFactoryBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\JarUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\AppData\Local\Temp\sbt_6fec5c83\xsbt\ScaladocBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 6.575s.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3942d7cf for Scala compiler version 2.13.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\gianc\Desktop\Revature\BigDataRepo\HWRepo\Project0\todocrud\target\scala-2.13\classes;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.13\1.1.2\scala-parser-combinators_2.13-1.1.2.jar;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\mysql\mysql-connector-java\8.0.27\mysql-connector-java-8.0.27.jar;C:\Users\gianc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 8.5331874 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
